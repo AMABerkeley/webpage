@@ -1,0 +1,887 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- Metas -->
+      <meta charset="utf-8">
+      <title>Automous RC Car</title>
+
+      <meta name="description" content="We are building a self driving RC Car.">
+      <meta author="Built by Emperor Gan Tu (Michael) and modified by peasant Travis Brashears :)">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <!-- Open graph meta tags -->
+      <meta property="og:title" content="Automous RC Car" />
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="http://travisbrashears.com/autocar" />
+      <meta property="og:description" content="We are building an Autonomus RC Car" />
+      <meta property="og:locale" content="en_US" />
+      <meta property="og:image" content="img/banner.png" />
+
+      <!-- Css -->
+      <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all"/>
+      <link href="css/base.css" rel="stylesheet" type="text/css" media="all"/>
+      <link href="css/main.css" rel="stylesheet" type="text/css" media="all"/>
+      <link href="css/flexslider.css" rel="stylesheet" type="text/css"  media="all" />
+      <link href="css/venobox.css" rel="stylesheet" type="text/css"  media="all" />
+      <link href="css/fonts.css" rel="stylesheet" type="text/css"  media="all" />
+      <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,600,700" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,700" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="css/component.css" />
+      <script src="js/modernizr.custom.js"></script>
+   </head>
+   <body>
+      <!-- Preloader -->
+      <div class="loader">
+         <!-- Preloader inner -->
+         <div class="loader-inner">
+            <svg width="120" height="220" viewbox="0 0 100 100" class="loading-spinner" version="1.1" xmlns="http://www.w3.org/2000/svg">
+               <circle class="spinner" cx="50" cy="50" r="21" fill="#111111" stroke-width="1.5"/>
+            </svg>
+         </div>
+         <!-- End preloader inner -->
+      </div>
+      <!-- End preloader-->
+
+      <!-- Return to Top -->
+      <a href="javascript:" id="return-to-top"><i class="icon-up-big"></i></a>
+      <!-- End Return to Top -->
+
+      <!--Wrapper-->
+      <div class="wrapper">
+         <!--Hero section-->
+         <section class="hero overlay">
+            <!--Main slider-->
+            <div class="main-slider slider">
+               <ul class="slides">
+                  <li>
+                     <div class="background-img">
+                        <img src="img/cover.png" alt="Background Cover">
+                     </div>
+                  </li>
+               </ul>
+            </div>
+            <!--End main slider-->
+            <!--Header-->
+            <header class="header">
+               <!--Container-->
+               <div class="container ">
+                  <!--Row-->
+                  <div class="row">
+                     <div class="col-md-2">
+                        <a class="scroll logo" href="https://stac.berkeley.edu/home">
+                           <!-- <h2>STAC</h2> -->
+                           <img src="img/logo/logo-light.png" style="height: 40px">
+                        </a>
+                     </div>
+                     <div class="col-md-10 text-right">
+                        <nav class="main-nav">
+                           <div class="toggle-mobile-but">
+                              <a href="#" class="mobile-but" >
+                                 <div class="lines"></div>
+                              </a>
+                           </div>
+                           <ul>
+                              <li><a class="scroll" href="#wrapper">Home</a></li>
+                              <li><a class="scroll" href="#about">About</a></li>
+                              <li><a class="scroll" href="#speakers">Technology</a></li>
+                              <li><a class="scroll" href="#agenda">Roadmap</a></li>
+                              <li><a class="scroll" href="#tickets">Hi</a></li>
+                              <li><a class="scroll" href="#location">Location</a></li>
+                              <li><a class="scroll" href="#faq">FAQ</a></li>
+                           </ul>
+                        </nav>
+                     </div>
+                  </div>
+                  <!--End row-->
+               </div>
+               <!--End container-->
+            </header>
+            <!--End header-->
+            <!--Inner hero-->
+            <div class="inner-hero fade-out">
+               <!--Container-->
+               <div class="container hero-content">
+                  <!--Row-->
+                  <div class="row">
+                     <div class="col-sm-12 text-center">
+                        <!--<h3 class="mb-10">AMAC Brings You</h3>
+                        <h1 class="large mb-10">Space Tech Symposium</h1>
+                        <p class="uppercase ">30 April 2018 with over 7 speakers -  Berkeley, California </p>
+                        <a href="https://www.eventbrite.com/e/space-tech-symposium-berkeley-hosted-by-space-technologies-at-cal-tickets-44052856279" class="but scroll ">Register Now</a> -->
+                     </div>
+                  </div>
+                  <!--End row-->
+               </div>
+               <!--End container-->
+            </div>
+            <!--End inner hero-->
+         </section>
+         <!--End hero section-->
+         <!--About section-->
+         <section id="about" class="about pt-120 pb-120 brd-bottom">
+            <!--Container-->
+            <div class="container">
+               <!--Row-->
+               <div class="row">
+                  <div class="col-sm-8 col-sm-offset-2 mb-100 text-center">
+                     <h1 class="title">STAC 2018 Space Tech Symposium</h1>
+                     <p class="title-lead mt-20">Space Tech Symposium at Berkeley (STS@Berkeley) is a gathering of space tech pioneers in industry and research. Top venture capitalists, startups, scientists, and engineers will present their visions for the future of space tech and much more. STS attendees will also be able to interact with presenters and fellow industry professionals.</p>
+                  </div>
+               </div>
+               <!--End row-->
+            </div>
+            <!--End container-->
+            <!--Wrapper-->
+      <div class="wrapper">
+         <!--Hero section-->
+         <section class="hero overlay">
+            <!--Main slider-->
+            <div class="main-slider slider">
+               <ul class="slides">
+                  <li>
+                     <div class="background-img">
+                        <img src="img/cover.png" alt="Background Cover">
+                     </div>
+                  </li>
+               </ul>
+            </div>
+            <!--End main slider-->
+            <!--Header-->
+            <header class="header">
+            </header>
+            <!--End header-->
+            <!--Inner hero-->
+            <div class="inner-hero fade-out">
+               <!--Container-->
+               <div class="container hero-content">
+                  <!--Row-->
+                  <div class="row">
+                     <div class="col-sm-12 text-center">
+                        <!--<h3 class="mb-10">AMAC Brings You</h3>
+                        <h1 class="large mb-10">Space Tech Symposium</h1>
+                        <p class="uppercase ">30 April 2018 with over 7 speakers -  Berkeley, California </p>
+                        <a href="https://www.eventbrite.com/e/space-tech-symposium-berkeley-hosted-by-space-technologies-at-cal-tickets-44052856279" class="but scroll ">Register Now</a> -->
+                     </div>
+                  </div>
+                  <!--End row-->
+               </div>
+               <!--End container-->
+            </div>
+            <!--End inner hero-->
+         </section>
+         <!--End hero section-->
+            <!--Container-->
+            <div class="container">
+               <!--Row-->
+               <div class="row">
+                  <div class="col-md-3 col-sm-3">
+                     <div class="block-info-1">
+                        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                           width="35px" height="25px" viewBox="0 0 42 32" enable-background="new 0 0 42 32" xml:space="preserve">
+                           <linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="5.1983" y1="28.1187" x2="43.4067" y2="11.702">
+                              <stop  offset="0" style="stop-color:#399BFF"/>
+                              <stop  offset="1" style="stop-color:#EE71F9"/>
+                           </linearGradient>
+                           <path fill="url(#SVGID_1_)" d="M38,30.5v-19c0-0.276-0.224-0.5-0.5-0.5S37,11.224,37,11.5v19c0,0.276-0.224,0.5-0.5,0.5h-31
+                              C5.224,31,5,30.776,5,30.5v-19C5,11.224,4.776,11,4.5,11S4,11.224,4,11.5v19C4,31.327,4.673,32,5.5,32h31
+                              C37.327,32,38,31.327,38,30.5z"/>
+                           <linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="4.7162" y1="26.9965" x2="42.9245" y2="10.5799">
+                              <stop  offset="0" style="stop-color:#399BFF"/>
+                              <stop  offset="1" style="stop-color:#EE71F9"/>
+                           </linearGradient>
+                           <path fill="url(#SVGID_2_)" d="M8.5,23C8.224,23,8,23.224,8,23.5S8.224,24,8.5,24H10v3.5c0,0.276,0.224,0.5,0.5,0.5
+                              s0.5-0.224,0.5-0.5V24h6v3.5c0,0.276,0.224,0.5,0.5,0.5s0.5-0.224,0.5-0.5V24h6v3.5c0,0.276,0.224,0.5,0.5,0.5s0.5-0.224,0.5-0.5V24
+                              h6v3.5c0,0.276,0.224,0.5,0.5,0.5s0.5-0.224,0.5-0.5V24h1.5c0.276,0,0.5-0.224,0.5-0.5S33.776,23,33.5,23H32v-5h1.5
+                              c0.276,0,0.5-0.224,0.5-0.5S33.776,17,33.5,17H32v-4.5c0-0.276-0.224-0.5-0.5-0.5S31,12.224,31,12.5V17h-6v-4.5
+                              c0-0.276-0.224-0.5-0.5-0.5S24,12.224,24,12.5V17h-6v-4.5c0-0.276-0.224-0.5-0.5-0.5S17,12.224,17,12.5V17h-6v-4.5
+                              c0-0.276-0.224-0.5-0.5-0.5S10,12.224,10,12.5V17H8.5C8.224,17,8,17.224,8,17.5S8.224,18,8.5,18H10v5H8.5z M31,18v5h-6v-5H31z
+                              M24,18v5h-6v-5H24z M11,18h6v5h-6V18z"/>
+                           <linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="-0.4811" y1="14.9003" x2="37.7272" y2="-1.5164">
+                              <stop  offset="0" style="stop-color:#399BFF"/>
+                              <stop  offset="1" style="stop-color:#EE71F9"/>
+                           </linearGradient>
+                           <path fill="url(#SVGID_3_)" d="M32.5,3h4.25C36.837,3,37,3,37,3.5V8H5V3.5C5,3.224,5.224,3,5.5,3h4C9.776,3,10,2.776,10,2.5
+                              S9.776,2,9.5,2h-4C4.673,2,4,2.673,4,3.5v5C4,8.776,4.224,9,4.5,9h33C37.776,9,38,8.776,38,8.5v-5C38,2.394,37.354,2,36.75,2H32.5
+                              C32.224,2,32,2.224,32,2.5S32.224,3,32.5,3z"/>
+                           <linearGradient id="SVGID_4_" gradientUnits="userSpaceOnUse" x1="-1.6311" y1="12.2237" x2="36.5772" y2="-4.1929">
+                              <stop  offset="0" style="stop-color:#399BFF"/>
+                              <stop  offset="1" style="stop-color:#EE71F9"/>
+                           </linearGradient>
+                           <path fill="url(#SVGID_4_)" d="M26.5,3C26.776,3,27,2.776,27,2.5S26.776,2,26.5,2h-11C15.224,2,15,2.224,15,2.5S15.224,3,15.5,3
+                              H26.5z"/>
+                           <linearGradient id="SVGID_5_" gradientUnits="userSpaceOnUse" x1="-2.9557" y1="9.1407" x2="35.2526" y2="-7.2759">
+                              <stop  offset="0" style="stop-color:#399BFF"/>
+                              <stop  offset="1" style="stop-color:#EE71F9"/>
+                           </linearGradient>
+                           <path fill="url(#SVGID_5_)" d="M13,4.5v-4C13,0.224,12.776,0,12.5,0S12,0.224,12,0.5v4C12,4.776,12.224,5,12.5,5S13,4.776,13,4.5z"
+                              />
+                           <linearGradient id="SVGID_6_" gradientUnits="userSpaceOnUse" x1="-0.3065" y1="15.3067" x2="37.9019" y2="-1.11">
+                              <stop  offset="0" style="stop-color:#399BFF"/>
+                              <stop  offset="1" style="stop-color:#EE71F9"/>
+                           </linearGradient>
+                           <path fill="url(#SVGID_6_)" d="M29.5,5C29.776,5,30,4.776,30,4.5v-4C30,0.224,29.776,0,29.5,0S29,0.224,29,0.5v4
+                              C29,4.776,29.224,5,29.5,5z"/>
+                        </svg>
+                        <p>
+                           <strong>DATE</strong>
+                           <span>30 April 2018</span>
+                        </p>
+                     </div>
+                  </div>
+                  <div class="col-md-3 col-sm-3">
+                     <div class="block-info-1">
+                        <svg version="1.1" id="Layer_7" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                           width="35px" height="25px" viewBox="0 0 42 32" enable-background="new 0 0 42 32" xml:space="preserve">
+                           <linearGradient id="SVGID_7_" gradientUnits="userSpaceOnUse" x1="4.511" y1="11.8158" x2="41.3229" y2="27.6695">
+                              <stop  offset="0" style="stop-color:#399BFF"/>
+                              <stop  offset="1" style="stop-color:#EE71F9"/>
+                           </linearGradient>
+                           <path fill="url(#SVGID_7_)" d="M10.239,31.926c0.009,0.006,0.021,0.003,0.03,0.009C10.341,31.973,10.418,32,10.499,32
+                              c0.044,0,0.088-0.006,0.132-0.018l10.868-2.966l10.868,2.966C32.411,31.994,32.455,32,32.499,32c0.082,0,0.158-0.027,0.23-0.065
+                              c0.01-0.005,0.021-0.003,0.03-0.009l9-5.5c0.191-0.117,0.281-0.348,0.22-0.563l-4.984-17.5c-0.041-0.147-0.148-0.267-0.29-0.326
+                              c-0.142-0.057-0.301-0.048-0.436,0.026l-4.962,2.784c-0.24,0.135-0.326,0.44-0.191,0.681c0.135,0.242,0.439,0.327,0.682,0.191
+                              l4.409-2.475l4.707,16.526l-8.015,4.898l-1.904-15.231c-0.034-0.275-0.293-0.466-0.559-0.434c-0.273,0.034-0.468,0.284-0.434,0.558
+                              l1.907,15.259L22,28.115v-2.73c0-0.276-0.224-0.5-0.5-0.5s-0.5,0.224-0.5,0.5v2.73l-9.911,2.705l1.907-15.259
+                              c0.034-0.274-0.16-0.524-0.434-0.558c-0.272-0.032-0.524,0.159-0.559,0.434l-1.904,15.231L2.084,25.77L6.791,9.244l4.409,2.475
+                              c0.242,0.134,0.546,0.049,0.682-0.191c0.135-0.241,0.049-0.545-0.191-0.681L6.729,8.063C6.595,7.988,6.436,7.979,6.293,8.037
+                              c-0.142,0.059-0.249,0.178-0.29,0.326l-4.984,17.5c-0.062,0.216,0.028,0.446,0.22,0.563L10.239,31.926z"/>
+                           <linearGradient id="SVGID_8_" gradientUnits="userSpaceOnUse" x1="12.6241" y1="7.5582" x2="28.5468" y2="14.4156">
+                              <stop  offset="0" style="stop-color:#399BFF"/>
+                              <stop  offset="1" style="stop-color:#EE71F9"/>
+                           </linearGradient>
+                           <path fill="url(#SVGID_8_)" d="M21.161,23.367c0.096,0.088,0.217,0.132,0.339,0.132c0.12,0,0.24-0.043,0.336-0.129
+                              C22.169,23.067,30,15.882,30,8.499c0-4.767-3.733-8.5-8.5-8.5S13,3.732,13,8.499C13,15.753,20.828,23.059,21.161,23.367z
+                              M21.5,0.999c4.275,0,7.5,3.224,7.5,7.5c0,6.097-5.993,12.337-7.497,13.807C20.002,20.819,14,14.497,14,8.499
+                              C14,4.223,17.225,0.999,21.5,0.999z"/>
+                           <linearGradient id="SVGID_9_" gradientUnits="userSpaceOnUse" x1="17.3671" y1="6.7191" x2="25.6329" y2="10.2789">
+                              <stop  offset="0" style="stop-color:#399BFF"/>
+                              <stop  offset="1" style="stop-color:#EE71F9"/>
+                           </linearGradient>
+                           <path fill="url(#SVGID_9_)" d="M26,8.499c0-2.481-2.019-4.5-4.5-4.5S17,6.018,17,8.499s2.019,4.5,4.5,4.5S26,10.98,26,8.499z
+                              M21.5,11.999c-1.93,0-3.5-1.57-3.5-3.5s1.57-3.5,3.5-3.5s3.5,1.57,3.5,3.5S23.43,11.999,21.5,11.999z"/>
+                        </svg>
+                        <p>
+                           <strong>LOCATION</strong>
+                           <span>Sibley Auditorium, Berkeley, CA</span>
+                        </p>
+                     </div>
+                  </div>
+                  <div class="col-md-3 col-sm-3">
+                     <div class="block-info-1">
+                        <svg version="1.1" id="Layer_10" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                           width="35px" height="25px" viewBox="0 0 42 32" enable-background="new 0 0 42 32" xml:space="preserve">
+                           <linearGradient id="SVGID_10_" gradientUnits="userSpaceOnUse" x1="1.9027" y1="28.6566" x2="55.9027" y2="10.9483">
+                              <stop  offset="0" style="stop-color:#399BFF"/>
+                              <stop  offset="1" style="stop-color:#EE71F9"/>
+                           </linearGradient>
+                           <path fill="url(#SVGID_10_)" d="M40.498,0c-0.276,0-0.5,0.224-0.5,0.5v31c0,0.276,0.224,0.5,0.5,0.5s0.5-0.224,0.5-0.5v-31
+                              C40.998,0.224,40.774,0,40.498,0z"/>
+                           <linearGradient id="SVGID_14_" gradientUnits="userSpaceOnUse" x1="1.1102" y1="26.2399" x2="55.1102" y2="8.5316">
+                              <stop  offset="0" style="stop-color:#399BFF"/>
+                              <stop  offset="1" style="stop-color:#EE71F9"/>
+                           </linearGradient>
+                           <path fill="url(#SVGID_10_)" d="M38.717,1.204c-0.17-0.083-0.376-0.062-0.526,0.055l-0.565,0.445C34.648,4.059,29.667,8,19.5,8H5.631
+                              C4.18,8,3,9.2,3,10.674v10.714C3,22.828,4.18,24,5.631,24h3.394c0.088,1.125,0.502,3.794,2.454,5.761
+                              C12.953,31.247,14.979,32,17.5,32c0.276,0,0.5-0.224,0.5-0.5S17.776,31,17.5,31c-2.242,0-4.026-0.652-5.306-1.938
+                              c-1.668-1.677-2.067-4.025-2.163-5.062h2.995c0.085,0.682,0.36,1.881,1.274,2.802C15.089,27.597,16.166,28,17.5,28
+                              c0.276,0,0.5-0.224,0.5-0.5S17.776,27,17.5,27c-1.055,0-1.891-0.302-2.484-0.896c-0.657-0.659-0.894-1.546-0.981-2.104h5.396
+                              c10.216,0,15.237,3.963,18.237,6.331l0.522,0.411c0.089,0.07,0.198,0.105,0.307,0.105c0.075,0,0.15-0.017,0.219-0.051
+                              c0.172-0.084,0.281-0.258,0.281-0.449V1.653C38.998,1.462,38.889,1.288,38.717,1.204z M4,21.388V10.674C4,9.751,4.731,9,5.631,9H9
+                              v14H5.631C4.716,23,4,22.292,4,21.388z M37.998,29.317C34.864,26.851,29.672,23,19.432,23h-5.797
+                              c-0.047-0.015-0.095-0.03-0.148-0.031c-0.001,0-0.001,0-0.002,0c-0.054,0-0.105,0.015-0.154,0.031H10V9h9.5
+                              c10.237,0,15.392-3.864,18.498-6.316V29.317z"/>
+                           <linearGradient id="SVGID_11_" gradientUnits="userSpaceOnUse" x1="-1.8839" y1="17.1097" x2="52.1161" y2="-0.5987">
+                              <stop  offset="0" style="stop-color:#399BFF"/>
+                              <stop  offset="1" style="stop-color:#EE71F9"/>
+                           </linearGradient>
+                           <path fill="url(#SVGID_11_)" d="M1.5,21.857c0.276,0,0.5-0.224,0.5-0.5V10.643c0-0.276-0.224-0.5-0.5-0.5S1,10.367,1,10.643v10.714
+                              C1,21.633,1.224,21.857,1.5,21.857z"/>
+                        </svg>
+                        <p>
+                           <strong>SPEAKERS</strong>
+                           <span>7 Professional Speakers</span>
+                        </p>
+                     </div>
+                  </div>
+                  <div class="col-md-3 col-sm-3 text-right">
+                     <div class="block-info-1">
+                        <a href="#tickets" class="scroll but"> Buy Tickets Now</a>
+                     </div>
+                  </div>
+               </div>
+               <!--End row-->
+            </div>
+            <!--End container-->
+         </section>
+         <!--End about section-->
+
+         <!--Schedule section-->
+         <section id="agenda" class="schedule pt-120 pb-120">
+            <!--Container-->
+            <div class="container">
+               <!--Row-->
+               <div class="row">
+                  <div class="col-sm-8 col-sm-offset-2 mb-100 text-center">
+                     <h1 class="title">Symposium Agenda</h1>
+                     <p class="title-lead mt-10">We are very excited about the talks we have planned for you. <br> Only at Space Tech Symposium 2018 this spring in Berkeley, California.</p>
+                  </div>
+               </div>
+               <!--End row-->
+            </div>
+            <!--End container-->
+            <!--Container-->
+            <div class="container">
+               <!--Row-->
+               <div class="row">
+                  <div class="col-sm-12">
+                     <h3 class="sub-title-0  mb-25"><span class="gradient-text">April 30, 2018</span></h3>
+                  </div>
+               </div>
+               <!--End row-->
+            </div>
+            <!--End container-->
+            <!--Container-->
+            <div class="container">
+               <!--Row-->
+               <div class="row">
+                  <div class="col-sm-4 ">
+                     <!--Tabs-->
+                     <ul class="block-tabs">
+                        <li class="active"><i class="et-line-calendar"></i><strong>Session 1</strong>  <span>- 04:00 - 06:05</span></li>
+                        <li class=""><i class="et-line-calendar"></i><strong>Session 2</strong>  <span>- 06:10 - 08:30</span></li>
+                     </ul>
+                  </div>
+                  <div class="col-sm-8 ">
+                     <ul class="block-tab">
+                        <!--Tab-->
+                        <li class="active ">
+                           <div class="block-date"><i class="et-line-calendar"></i><strong>Session 1</strong>  <span>- 04:00 - 06:05</span></div>
+                           <div class="block-detail">
+                              <span class="time">04:00 - 04:30</span>
+                              <span class="topic">Registration</span>
+                           </div>
+                           <div class="block-detail">
+                              <span class="time">04:30 - 05:00</span>
+                              <span class="topic">Networking &amp; Project Demo</span>
+                              <div class="block-text">
+                                 <p>Talk to the STAC members about the projects they have been working on over the past year at the project exhibition.</p>
+                              </div>
+                           </div>
+                           <div class="block-detail">
+                              <span class="time">05:00 - 05:15</span>
+                              <span class="topic">STAC Introduction</span>
+                              <div class="block-text">
+                                 <p>Learn what Space Technologies at Cal (STAC) is about, who we are, and what we do.</p>
+                                 <span class="speaker"> <strong >Speaker</strong> : <a class="gradient-text link-disabled">Travis Brashears - STAC Co-Founder</a> </span>
+                              </div>
+                           </div>
+                           <div class="block-detail">
+                              <span class="time">05:15 - 05:40</span>
+                              <span class="topic">Keynote</span>
+                              <div class="block-text">
+                                 <p>Learn more about the innovations in space tech.</p>
+                                 <span class="speaker"> <strong >Speaker</strong> : <a class="gradient-text scroll">To Be Announced</a> </span>
+                           </div>
+                           </div>
+                           <div class="block-detail">
+                              <span class="time">05:40 - 06:05</span>
+                              <span class="topic">Investor Panel</span>
+                              <div class="block-text">
+                                 <p>Hear from a panel of investors to learn more about the investing in space.</p>
+                                 <span class="speaker"> <strong >Moderator</strong> : <a class="gradient-text link-disabled">Malhar Patel - STAC EVP</a> </span>
+                                 <span class="speaker"> <strong >Panelist</strong> : <a class="gradient-text scroll" href="#speakers-img">Tess Hatch - Bessemer Venture Partners</a></span>
+                                 <span class="speaker"> <strong >Panelist</strong> : <a class="gradient-text scroll" href="#speakers-img">Garrett Goldberg - Bee Partners</a></span>
+                                 <span class="speaker"> <strong >Panelist</strong> : <a class="gradient-text scroll" href="#speakers-img">Shahin Farshchi - Lux Capital</a></span>
+                              </div>
+                           </div>
+                           <div class="block-detail">
+                              <span class="time">06:05 - 06:10</span>
+                              <span class="topic">Break</span>
+                           </div>
+                        </li>
+                        <li>
+                           <div class="block-date"><i class="et-line-calendar"></i><strong>Session 2</strong>  <span>- 06:10 - 08:30</span></div>
+                           <div class="block-detail">
+                              <span class="time">06:10 - 06:45</span>
+                              <span class="topic">Research Panel</span>
+                              <div class="block-text">
+                                 <p>Hear from a panel of researchers and professors to learn more about the exciting research happening in the space community.</p>
+                                 <span class="speaker"> <strong >Moderator</strong> : <a class="gradient-text link-disabled">Olivia Hsu - STAC Co-Founder</a> </span>
+                                 <span class="speaker"> <strong >Panelist</strong> : <a class="gradient-text scroll" href="#speakers-img">Professor Adam Arkin - UC Berkeley</a></span>
+                                 <span class="speaker"> <strong >Panelist</strong> : <a class="gradient-text scroll" href="#speakers-img">Zach Manchester - Stanford</a></span>
+                              </div>
+                           </div>
+                           <div class="block-detail">
+                              <span class="time">06:45 - 07:25</span>
+                              <span class="topic">Industry Panel</span>
+                              <div class="block-text">
+                                 <p>Hear from a panel of private space companies to learn more about the innovations in the space industry.</p>
+                                 <span class="speaker"> <strong >Moderator</strong> : <a class="gradient-text link-disabled">To Be Announced</a> </span>
+                                 <span class="speaker"> <strong >Panelist</strong> : <a class="gradient-text scroll" href="#speakers-img">Daniel Ceperley - CEO of Leo Labs</a></span>
+                                 <span class="speaker"> <strong >Panelist</strong> : <a class="gradient-text scroll" href="#speakers-img">John Gedmark - CEO of Astranis</a></span>
+                              </div>
+                           </div>
+                           <div class="block-detail">
+                              <span class="time">07:25 - 08:30</span>
+                              <span class="topic">Project Symposium</span>
+                              <div class="block-text">
+                                 <p>Talk to the STAC members and industry partners to learn about the projects they have been working on over the past year at their project exhibition. Food provided.</p>
+                              </div>
+                           </div>
+                           <div class="block-detail">
+                              <span class="time">08:30 - 09:00</span>
+                              <span class="topic">Closing</span>
+                           </div>
+                        </li>
+                        <!--Tab-->
+                     </ul>
+                  </div>
+               </div>
+               <!--End row-->
+            </div>
+            <!--End container-->
+         </section>
+         <!--End schedule section-->
+         <!--Counter section-->
+         <section class="counter pt-120 pb-120 overlay parallax">
+            <div class="background-img" >
+               <img src="img/6.jpg" alt="">
+            </div>
+            <!--Container-->
+            <div class="container">
+               <!--Row-->
+               <div class="row">
+                  <div class="col-sm-12  text-center  front-p">
+                     <h1 class="title">Time left until the Symposium start </h1>
+                     <p class="title-lead mt-10 mb-20">Monday, 30 April, 2018 with over 7 speakers - Berkeley, California </p>
+                     <span class="countdown gradient-text"></span>
+                  </div>
+               </div>
+               <!--End row-->
+            </div>
+            <!--End container-->
+         </section>
+         <!--End counter section-->
+         <!--Tickest section-->
+         <section id="tickets" class="tickets pt-120 pb-120">
+            <!--Container-->
+            <div class="container">
+               <!--Row-->
+               <div class="row">
+                  <div class="col-sm-8 col-sm-offset-2 mb-130 text-center">
+                     <h1 class="title">Symposium Tickets</h1>
+                     <p class="title-lead mt-10">Reserve your ticket right now for the talk of the year<br>Join us to hear from some of space technology's brightest minds. </p>
+                  </div>
+               </div>
+               <!--End row-->
+            </div>
+            <!--End container-->
+            <!--Container-->
+            <div class="container">
+               <!--Row-->
+               <div class="row vertical-align tickets">
+                  <div class="col-sm-4 ">
+                     <h3 class="sub-title-0  mb-20"><span class="gradient-text">Your first Symposium</span><br> 
+                        <span class="gradient-text">packed with events</span>
+                     </h3>
+                     <div class="review-slider flexslider">
+                        <ul class="slides">
+                           <li>
+                              <blockquote>"We cannot just assume great ideas are being worked on." </blockquote>
+                           </li>
+                           <li>
+                              <blockquote>"There are great knowns and there are great known unknowns, but there are also great unknown unknowns. Space is one of those."</blockquote>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+                  <div class="col-sm-8 ">
+                     <div class="col-sm-6">
+                        <ul class="block-tickets overlap">
+                           <li>
+                              <ul class="block-ticket ">
+                                 <li class="block-price"><span class="price"><span class="cur">$</span>30</span><span class="block-type">Industry Seating</span></li>
+                                 <li><b>VIP Industry Seating</b></li>
+                                 <li>Main Event speeches</li>
+                                 <li>Keynote Speakers</li>
+                                 <li>Pannel Discussions</li>
+                                 <li>Networking Access</li>
+                                 <li>Project Symposium</li>
+                                 <li>Free Food</li>
+                                 <li><a href="https://www.eventbrite.com/e/space-tech-symposium-berkeley-hosted-by-space-technologies-at-cal-tickets-44052856279#tickets" target="_blank" class="but mt-30"> Buy Ticket Now</a></li>
+                              </ul>
+                           </li>
+                        </ul>
+                     </div>
+                     <div class="col-sm-6">
+                        <ul class="block-tickets">
+                           <li>
+                              <ul class="block-ticket active">
+                                 <li class="block-price"><span class="price"><span class="cur">$</span>15</span><span class="block-type">Student Seating</span></li>
+                                 <li><b>Student 50% off Discounts</b></li>
+                                 <li>Main Event speeches</li>
+                                 <li>Keynote Speakers</li>
+                                 <li>Pannel Discussions</li>
+                                 <li>Networking Access</li>
+                                 <li>Project Symposium</li>
+                                 <li>Free Food</li>
+                                 <li><a href="https://www.eventbrite.com/e/space-tech-symposium-berkeley-hosted-by-space-technologies-at-cal-tickets-44052856279#tickets" target="_blank" class="but mt-30"> Buy Ticket Now</a></li>
+                              </ul>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <!--End row-->
+            </div>
+            <!--End container-->
+         </section>
+         <!--End tickets section-->
+         <!--Contact section-->
+         <section id="location" class="location pt-200 pb-200 bg-dark">
+            <div class="block-map ">
+               <div id="map" class="map"></div>
+            </div>
+            <!--Container-->
+            <div class="container block-contact">
+               <!--Row-->
+               <div class="row">
+                  <div class="col-md-5 col-md-offset-7 col-sm-5 col-sm-offset-7">
+                     <h1 class="title">Location</h1>
+                     <p class="title-lead mt-10 mb-50">We are very excited to show you what we have planned for you. Please join us at UC Berkeley on Monday, April 30, 2018. We look forward to meeting you there.</p>
+                  </div>
+                  <div class="col-md-5 col-md-offset-7 col-sm-5 col-sm-offset-7">
+                     <div class="block-info-3">
+                        <p>
+
+                           Sibley Auditorium <br>
+                           Bechtel Engineering Center <br>
+                           Berkeley, CA 94709 USA<br><br>
+                           Email : <a href="mailto:events@stac.berkeley.edu" class="gradient-text">events@stac.berkeley.edu</a>
+                        </p>
+                     </div>
+                  </div>
+               </div>
+               <!--End row-->
+            </div>
+            <!--End container-->
+         </section>
+         <!--End contact section-->
+         <!--Faq section-->
+         <section id="faq" class="faq pt-120 pb-120 brd-bottom">
+            <!--Container-->
+            <div class="container">
+               <!--Row-->
+               <div class="row">
+                  <div class="col-sm-8 col-sm-offset-2 mb-10 text-center ">
+                     <h1 class="title">Frequently asked questions </h1>
+                     <p class="title-lead mt-10 mb-20">Some frequently asked questions for you.</p>
+                  </div>
+               </div>
+               <!--End row-->
+            </div>
+            <!--End container-->
+            <!--Container-->
+            <div class="container">
+               <!--Row-->
+               <div class="row">
+                  <div class="col-sm-8 col-sm-offset-2">
+                     <ul class="block-tab">
+                        <!--Tab-->
+                        <div class="block-detail">
+                           <div class="block-faq">
+                              <h4>What is Space Tech Symposium (STS@Berkeley) ?</h4>
+                           </div>
+                           <div class="block-text"><p>Space Tech Symposium at Berkeley (STS@Berkeley) is a gathering of space tech pioneers in industry and research. Top venture capitalists, startups, scientists, and engineers will present their visions for the future of space tech and much more. STS attendees will also be able to interact with presenters and fellow industry professionals.</p></div>
+                        </div>
+                        <div class="block-detail">
+                           <div class="block-faq">
+                              <h4>Why are we hosting STS@Berkeley ?</h4>
+                           </div>
+                           <div class="block-text"><p>We are a group of passionate scientists who want to push the frontier of space research and the space industry. We are not a typical engineering club; we focus on making strides in innovating space technologies. We, like the rest of industry, want to accelerate our progression towards the exploration and habitation of space. Berkeley, the crossroads of a world class research university and a burgeoning space startup scene, is the the perfect spot for a conversation about the collaboration of the public and private sectors necessary for the progress in the space industry to take place. We hope that by hosting STS, we can provide attendees a broader perspective of the future of space technology that brings us all a little bit closer to understanding the great unknown.</p></div>
+                        </div>
+                        <div class="block-detail">
+                           <div class="block-faq">
+                              <h4>Where and where is the Space Tech Symposium ?</h4>
+                           </div>
+                           <div class="block-text"><p>The Space Tech Symposium will be held in Sibley Auditorium of the Bechtel Engineering Center at UC Berkeley in Berkeley, CA on Monday April 30, 2018 from 4:00pm to 8:30pm.</p></div>
+                        </div>
+                        <div class="block-detail">
+                           <div class="block-faq">
+                              <h4>What is STAC ? What do you do ?</h4>
+                           </div>
+                           <div class="block-text"><p>Space Technologies at Cal (STAC) is a student engineering organization of 60 students at Berkeley focused on developing innovative space technologies and research. We are creating a collaborative space program by incorporating multiple universities, research labs and industry partners to enable space research projects such as High Altitude Balloons, Microgravity Experiments, CubeSats, and more. You can learn more about us at our <a href="https://stac.berkeley.edu" class="gradient-text">website</a>.</p></div>
+                        </div> 
+                        <div class="block-detail">
+                           <div class="block-faq">
+                              <h4>What projects are STAC members working on ?</h4>
+                           </div>
+                           <div class="block-text"><p>We are working on many exciting projects. We have a High Altitude Balloon project, where we launch unmanned helium balloon into near space with scientific payloads. We are launching several Interstellar Microgravity Experiments (TIMEs) to outer-space with Blue Origin rockets, where we further aerospace research by testing how a low-gravity environment - like space - will affect lifeforms, optics, and physical mechanics. Our CubeSat Deployer project aims to deploy smaller swarm of Wafer Scale Spacecrafts (WaferSats) into space to pioneer the work in laser communication. Our SEED project researches into how humans can create a habitat with an earth-like environment sustained by a biologic engine and harvestable resources. Lastly but not the least, our Autonomous Rover project is working on developing a resource rover, in collaboration with NASA Ames, that is fully controllable and autonomous in order to extract and utilize resources on moon.</p></div>
+                        </div> 
+                        <div class="block-detail">
+                           <div class="block-faq">
+                              <h4>What motivates STAC members to work on space projects ?</h4>
+                           </div>
+                           <div class="block-text"><p>There are many great ideas that people just assume are being worked on, but this may not be the case. We cannot just assume these ideas are being worked on. Some one has to work on small incremental steps that get us one step closer to these long term goals: that is exactly what STAC is trying to do. We work on projects that get humanity one step closer to long term space innovations. </p></div>
+                        </div>
+                        <div class="block-detail">
+                           <div class="block-faq">
+                              <h4>I really love what you guys are working on. Can I sponsor ? </h4>
+                           </div>
+                           <div class="block-text"><p>Yes! Your support ensures that we can continue innovating and breaking through new barriers in space. You can learn more about our sponsorship on our <a href="https://stac.berkeley.edu/sponsor/industry-partnership" class="gradient-text" target="_blank">website</a>. If you are interested in shaping the coming age of space exploration along our side with a sponsorship or donation, please contact us at <a href="mailto:sponsor@stac.berkeley.edu" class="gradient-text">sponsor@stac.berkeley.edu</a>. </p></div>
+                        </div>
+                        <div class="block-detail">
+                           <div class="block-faq">
+                              <h4>Is there a dress code ?</h4>
+                           </div>
+                           <div class="block-text"><p>Yes: comfortable. Keep in mind the amazing people you’ll be meeting at this conference, and dress to impress and connect with them. However you style yourself, make sure it’s respectful of the beautiful venue and other guests attending the event.</p></div>
+                        </div>
+                        <div class="block-detail">
+                           <div class="block-faq">
+                              <h4>Is this event open to everyone ?</h4>
+                           </div>
+                           <div class="block-text"><p>Definitely! Anyone passionate about space is welcome and encouraged to attend our Symposium! Don't forget to grab your <a href="#tickets" class="gradient-text scroll">tickets</a> in advance!</p></div>
+                        </div>
+                        <div class="block-detail">
+                           <div class="block-faq">
+                              <h4>Is there a discount for students ?</h4>
+                           </div>
+                           <div class="block-text"><p>Yes! Student <a href="#tickets" class="gradient-text scroll">tickets</a> are 50% off and costs only $15.</p></div>
+                        </div>
+                     </ul>
+                  </div>
+               </div>
+               <!--End row-->
+            </div>
+            <!--End container-->
+            <!--Container-->
+            <div class="container">
+               <!--Row-->
+               <div class="row">
+                  <div class="col-sm-8 col-sm-offset-2  text-center mt-50">
+                     <h2 class="sub-title-1">Didn’t find what your are looking for ?</h2>
+                     <p><a class="gradient-text" href="mailto:events@stac.berkeley.edu "> events@stac.berkeley.edu</a></p>
+                  </div>
+               </div>
+               <!--End row-->
+            </div>
+            <!--End container-->		
+         </section>
+         <!--End faq section-->
+         <footer class="pt-120  bg-dark">
+            <section class="top-footer pb-120">
+               <!--Container-->
+               <div class="container">
+                  <div class="row">
+                     <div class="col-sm-8 col-sm-offset-2">
+                        <h2 class="sub-title-3 mb-30">About</h2>
+                        <p class="footer-about">Space Technologies at Cal (STAC) is a student engineering organization of 60 students at Berkeley focused on developing innovative space technologies and research. We are creating a collaborative space program by incorporating multiple universities, research labs and industry partners to enable space research projects such as High Altitude Balloons, Microgravity Experiments, CubeSats, and more. </p>
+                        <ul class="block-social mt-20">
+                           <li><a target="_blank" href="https://www.facebook.com/stacBerkeley"><i class="icon-facebook"></i></a></li>
+                           <li><a target="_blank" href="https://twitter.com/stacBerkeley"><i class="icon-twitter"></i></a></li>
+                           <li><a target="_blank" href="https://stac.berkeley.edu/home"><i class="icon-globe-1"></i></a></li>
+                           <li><a target="_blank" href="https://medium.com/@stac"><i class="icon-medium"></i></a></li>
+                           <li><a target="_blank" href="https://www.linkedin.com/company/12956417/"><i class="icon-linkedin"></i></a></li>
+                        </ul>
+                     </div>
+
+                  </div>
+               </div>
+               <!--End container-->		
+            </section>
+            <div class="bottom-footer bg-black pt-50 pb-50">
+               <!--Container-->
+               <div class="container ">
+                  <div class="row">
+                     <div class="col-md-6">
+                        <p>	&copy; 2018 all rights reserved - STAC</p>
+                     </div>
+                     <div class="col-md-6 ">
+                        <ul class="block-legal">
+                           <!-- <li><a href="#">Privacy Policy</a>
+                           <li><a  href="#">Terms of Use</a></li> -->
+                           <li><a  href="#about" class="scroll">About</a></li>
+                           <!-- <li><a  href="#">Legal</a></li> -->
+                           <li><span><a class="gradient-text scroll" href="#wrapper">Back To Top</a></span></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <!--End container-->		
+            </div>
+         </footer>
+      </div>
+
+      <!-- All modals added here for speakers. -->
+
+      <div class="md-modal md-effect-1" id="adam-arkin">
+         <div class="md-content">
+            <div>
+               <h3>Adam Arkin</h3>
+               <p>Adam Arkin is the Dean A. Richard Newton Memorial Professor of Bioengineering at UC Berkeley. Adam's synthetic biology lab seeks to uncover the evolutionary design principles of cellular networks and populations and to exploit them for applications. In 2013, Adam received the US Department of Energy's highest honor, the Ernest Orlando Lawrence Award, for his research on the physical theory and processes of cells that make life possible.</p>
+               <button class="md-close" style="display: none">Close me!</button>
+            </div>
+         </div>
+      </div>
+
+      <div class="md-modal md-effect-1" id="daniel-ceperley">
+        <div class="md-content">
+            <div>
+               <h3>Daniel Ceperley</h3>
+               <p>Daniel is the CEO of LEOLabs, a startup founded in 2016 to map debris in low earth orbit to enable the LEO economy. Prior to founding LEOLabs, Daniel served as the program director of SRI International and developed its satellite tracking operations. Daniel holds a PhD in Electrical Engineering and Computer Science from UC Berkeley.</p>
+               <button class="md-close" style="display: none">Close me!</button>
+            </div>
+         </div>
+      </div>
+      
+      <div class="md-modal md-effect-1" id="garrett-goldberg">
+        <div class="md-content">
+            <div>
+               <h3>Garrett Goldberg</h3>
+               <p>Garrett is a Partner at Bee Partners, a pre-Seed stage venture capital firm focused on supporting passionate founders with deep market insights. He focuses on identifying founders and startups servicing enterprises and enabling new marketplaces. He actively seeks investments in frontier technologies (drones, AI, NewSpace) and invests time in building companies that matter.</p>
+               <button class="md-close" style="display: none">Close me!</button>
+            </div>
+         </div>
+      </div>
+      
+      <div class="md-modal md-effect-1" id="john-gedmark">
+        <div class="md-content">
+            <div>
+               <h3>John Gedmark</h3>
+               <p>John Gedmark is the CEO of Astranis, is building the future of telecommunications satellites, and plans to spread the internet to the four billion people that currently lack access. Before Astranis, John founded the Commercial Spaceflight Federation and was the Director of Spaceflight Operations at the X Prize Foundation. John holds a Masters in Aerospace Engineering from Stanford.</p>
+               <button class="md-close" style="display: none">Close me!</button>
+            </div>
+         </div>
+      </div>
+      
+      <div class="md-modal md-effect-1" id="shahin-farshchi">
+        <div class="md-content">
+            <div>
+               <h3>Shahin Farshchi</h3>
+               <p>Shahin Farshchi is a Partner at Lux Capital, which invests in seed and early stage startups spanning a variety of industries including 3D printing, machine learning, artificial intelligence, flying robots, surgical robots, synthetic biology, genomics, satellites, space, drones, computational imaging and recognition, new materials and much more. Shahin is particularly interested in AI, the brain, space, robots, cars, and engines. Previous investments of his include Astranis, Planet Labs, and Flex Logix.</p>
+               <button class="md-close" style="display: none">Close me!</button>
+            </div>
+         </div>
+      </div>
+      
+      <div class="md-modal md-effect-1" id="tess-hatch">
+        <div class="md-content">
+            <div>
+               <h3>Tess Hatch</h3>
+               <p>Tess is an investor in Bessemer Venture Partners' Menlo Park office. She is focused on frontier tech, specifically commercial space, machine/deep/reinforcement learning, blockchain, and quantum computing. She currently serves as board observer for Rocket Lab, Spire, Auth0, Endgame, Distil Networks, Team8, Virtru, Claroty, CyberGRX, and Illusive Networks.</p>
+               <button class="md-close" style="display: none">Close me!</button>
+            </div>
+         </div>
+      </div>
+      
+      <div class="md-modal md-effect-1" id="zachary-manchester">
+        <div class="md-content">
+            <div>
+               <h3>Zachary Manchester</h3>
+               <p>Zachary Manchester is an Assistant Professor of Aeronautics and Astronautics at Stanford University. He is the founder of the KickSat project, and has previously worked at Harvard University and NASA Ames Research Center. His research spans robotics, control, optimization, nonlinear dynamics, and spacecraft.</p>
+               <button class="md-close" style="display: none">Close me!</button>
+            </div>
+         </div>
+      </div>
+
+      <!-- All modals added here for agenda. -->
+
+      <div class="md-modal md-effect-1" id="adam-arkin-2">
+         <div class="md-content">
+            <div>
+               <h3>Adam Arkin</h3>
+               <p>Adam Arkin is the Dean A. Richard Newton Memorial Professor of Bioengineering at UC Berkeley. Adam's synthetic biology lab seeks to uncover the evolutionary design principles of cellular networks and populations and to exploit them for applications. In 2013, Adam received the US Department of Energy's highest honor, the Ernest Orlando Lawrence Award, for his research on the physical theory and processes of cells that make life possible.</p>
+               <button class="md-close" style="display: none">Close me!</button>
+            </div>
+         </div>
+      </div>
+
+      <div class="md-modal md-effect-1" id="daniel-ceperley-2">
+        <div class="md-content">
+            <div>
+               <h3>Daniel Ceperley</h3>
+               <p>Daniel is the CEO of LEOLabs, a startup founded in 2016 to map debris in low earth orbit to enable the LEO economy. Prior to founding LEOLabs, Daniel served as the program director of SRI International and developed its satellite tracking operations. Daniel holds a PhD in Electrical Engineering and Computer Science from UC Berkeley.</p>
+               <button class="md-close" style="display: none">Close me!</button>
+            </div>
+         </div>
+      </div>
+      
+      <div class="md-modal md-effect-1" id="garrett-goldberg-2">
+        <div class="md-content">
+            <div>
+               <h3>Garrett Goldberg</h3>
+               <p>Garrett is a Partner at Bee Partners, a pre-Seed stage venture capital firm focused on supporting passionate founders with deep market insights. He focuses on identifying founders and startups servicing enterprises and enabling new marketplaces. He actively seeks investments in frontier technologies (drones, AI, NewSpace) and invests time in building companies that matter.</p>
+               <button class="md-close" style="display: none">Close me!</button>
+            </div>
+         </div>
+      </div>
+      
+      <div class="md-modal md-effect-1" id="john-gedmark-2">
+        <div class="md-content">
+            <div>
+               <h3>John Gedmark</h3>
+               <p>John Gedmark is the CEO of Astranis, is building the future of telecommunications satellites, and plans to spread the internet to the four billion people that currently lack access. Before Astranis, John founded the Commercial Spaceflight Federation and was the Director of Spaceflight Operations at the X Prize Foundation. John holds a Masters in Aerospace Engineering from Stanford.</p>
+               <button class="md-close" style="display: none">Close me!</button>
+            </div>
+         </div>
+      </div>
+      
+      <div class="md-modal md-effect-1" id="shahin-farshchi-2">
+        <div class="md-content">
+            <div>
+               <h3>Shahin Farshchi</h3>
+               <p>Shahin Farshchi is a Partner at Lux Capital, which invests in seed and early stage startups spanning a variety of industries including 3D printing, machine learning, artificial intelligence, flying robots, surgical robots, synthetic biology, genomics, satellites, space, drones, computational imaging and recognition, new materials and much more. Shahin is particularly interested in AI, the brain, space, robots, cars, and engines. Previous investments of his include Astranis, Planet Labs, and Flex Logix.</p>
+               <button class="md-close" style="display: none">Close me!</button>
+            </div>
+         </div>
+      </div>
+      
+      <div class="md-modal md-effect-1" id="tess-hatch-2">
+        <div class="md-content">
+            <div>
+               <h3>Tess Hatch</h3>
+               <p>Tess is an investor in Bessemer Venture Partners' Menlo Park office. She is focused on frontier tech, specifically commercial space, machine/deep/reinforcement learning, blockchain, and quantum computing. She currently serves as board observer for Rocket Lab, Spire, Auth0, Endgame, Distil Networks, Team8, Virtru, Claroty, CyberGRX, and Illusive Networks.</p>
+               <button class="md-close" style="display: none">Close me!</button>
+            </div>
+         </div>
+      </div>
+      
+      <div class="md-modal md-effect-1" id="zachary-manchester-2">
+        <div class="md-content">
+            <div>
+               <h3>Zachary Manchester</h3>
+               <p>Zachary Manchester is an Assistant Professor of Aeronautics and Astronautics at Stanford University. He is the founder of the KickSat project, and has previously worked at Harvard University and NASA Ames Research Center. His research spans robotics, control, optimization, nonlinear dynamics, and spacecraft.</p>
+               <button class="md-close" style="display: none">Close me!</button>
+            </div>
+         </div>
+      </div>
+
+      
+
+
+      
+      <!--  -->
+      <div class="md-overlay"></div><!-- the overlay element -->
+
+      <!-- End wrapper-->
+      <!--Javascript-->	
+      <script src="js/jquery-1.12.4.min.js" type="text/javascript"></script>
+      <script src="js/jquery.flexslider-min.js" type="text/javascript"></script>
+      <script src="js/jquery.countdown.min.js" type="text/javascript"></script>
+      <script src="js/bootstrap.min.js" type="text/javascript"></script>
+      <script src="js/smooth-scroll.js" type="text/javascript"></script>
+      <script src="js/jquery.validate.min.js" type="text/javascript"></script>
+      <script src="js/placeholders.min.js" type="text/javascript"></script>
+      <script src="js/venobox.min.js" type="text/javascript"></script>
+      <script src="js/instafeed.min.js" type="text/javascript"></script>
+      <script src="js/classie.js"></script>
+      <script src="js/modalEffects.js"></script>
+      <script src="js/script.js" type="text/javascript"></script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBbGQXiGt-6UAmOFFdSzYI-byeE7ewBuVM&callback=initializeMap"></script>
+      <!-- for the blur effect -->
+      <!-- by @derSchepp https://github.com/Schepp/CSS-Filters-Polyfill -->
+      <script src="js/cssParser.js"></script>
+      <!-- Google analytics -->
+      <!-- End google analytics -->
+   </body>
+</html>
