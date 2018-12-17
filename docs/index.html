@@ -54,11 +54,8 @@
             <div class="main-slider slider">
                <ul class="slides">
                   <li>
-                     <div align="center">
-						<video  autoplay loop muted>
-						  <source src="img/car_driving.mp4" type="video/mp4">
-						Your browser does not support the video tag.
-						</video>
+                     <div class="background-img">
+                        <img src="img/car.jpg" alt="Background Cover">
                      </div>
                   </li>
                </ul>
@@ -73,8 +70,8 @@
                   <div class="row">
                      <div class="col-md-2">
                         <a class="scroll logo" href="https://github.com/AMABerkeley">
-                           <!-- <h2>STAC</h2> -->
-                           <img src="img/car.jpg" style="height: 40px">
+                           <h2>AMAC</h2>
+                           <!-- <img src="img/car.jpg" style="height: 40px"> -->
                         </a>
                      </div>
                      <div class="col-md-10 text-right">
@@ -101,14 +98,14 @@
          </section>
          <!--End hero section-->
          <!--About section-->
-         <section id="about" class="about pt-120 pb-120 brd-bottom">
+         <section id="about" class="about pt-120 brd-bottom">
             <!--Container-->
             <div class="container">
                <!--Row-->
                <div class="row">
                   <div class="col-sm-8 col-sm-offset-2 mb-100 text-center">
                      <h1 class="title">1/8th Scale Autonomous Vehicle</h1>
-                     <p class="title-lead mt-20">Creating a backpack-sized autonomous car to navigate the Berkeley campus. </p>
+                     <p class="title-lead mt-20">We're a team of Berkeley students that are creating a backpack-sized autonomous car to navigate the Berkeley campus. </p>
                   </div>
                </div>
                <!--End row-->
@@ -122,40 +119,50 @@
                   <div class="main-slider slider">
                      <ul class="slides">
                         <li>
-                           <div class="background-img">
-                              <img src="img/car.jpg" alt="Background Cover">
+                           <div align="center">
+                        <video  autoplay loop muted>
+                          <source src="img/car_driving.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                        </video>
                            </div>
                         </li>
                      </ul>
                   </div>
                   <!--End main slider-->
-                  <!--Header-->
-                  <header class="header">
-                  </header>
-                  <!--End header-->
                </section>
                <!--End hero section-->
          </section>
          <!--End about section-->
-         <!--Counter section-->
-         <section class="counter pt-120 pb-120 overlay parallax">
-            <div class="background-img" >
-               <img src="img/autonomous-car_landing-page-crop.jpg" alt="">
-            </div>
+         <!-- Start tech section -->
+         <section id="tech" class="tech pt-60 pb-120 brd-bottom">
             <!--Container-->
             <div class="container">
                <!--Row-->
                <div class="row">
-                  <div class="col-sm-12  text-center  front-p">
-                     <h1 class="title">Time left until first Autonomous Car deployed </h1>
-                     <p class="title-lead mt-10 mb-20">Early 2019 with over 10 sensors - Berkeley, California </p>
+                  <div class="col-sm-8 col-sm-offset-2 mb-100 text-center">
+                     <h1 class="title">Technology</h1>
+                     <p class="title-lead mt-20">All of our code for the AMAC car is publicly available on our <a href="https://github.com/AMABerkeley/">AMAC Github</a></p>
+                     <div class="col-sm-4 mt-60">
+                        <ul>
+                           <li> <strong>Hardware Included: </strong> </li>
+                           <li> Ouster Lidar </li>
+                           <li> IMU </li>
+                           <li> 3 RGB Camera Assembly </li>
+                           <li> Intel NUC </li>
+                           <li> BLDC Motor </li>
+                           <li> ESC - Motor Controller </li>
+                        </ul>
+                     </div>
+                     <div class="col-sm-8 mt-20">
+                        <img src="img/car_model2.png"> 
+                     </div>
                   </div>
                </div>
                <!--End row-->
             </div>
             <!--End container-->
          </section>
-         <!--End counter section-->
+         <!--End tech section-->
          <!--Contact section-->
          <!--End contact section-->
          <!--Faq section-->
