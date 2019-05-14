@@ -28,6 +28,15 @@
       <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,700" rel="stylesheet">
       <link rel="stylesheet" type="text/css" href="css/component.css" />
       <script src="js/modernizr.custom.js"></script>
+      <script src="./assets/lib/roslib.js"></script>
+      <script src="./assets/lib/three.min.js"></script>
+      <!-- <script src="https://static.robotwebtools.org/ros3djs/0.18.0/ColladaLoader.js"></script> -->
+      <script src="./assets/lib/ColladaLoader.js"></script>
+      <script src="./assets/lib/ros3d.js"></script>
+      <script src="./assets/lib/STLLoader.js"></script>
+      <script src="./assets/lib/jquery-3.4.1.min.js"></script>
+      <script src="./assets/lib/eventemitter2.min.js"></script>
+      <script src="./assets/script.js"></script>
    </head>
    <body>
       <!-- Preloader -->
@@ -65,7 +74,7 @@
             <!--Header-->
             <header class="header">
                <!--Container-->
-               <div class="container ">
+               <div class="container">
                   <!--Row-->
                   <div class="row">
                      <div class="col-md-6">
@@ -221,6 +230,15 @@
          </section>
          <!--End tech section-->
          <!--Contact section-->
+         <section id="urdf_viewer" class="urdf_viewer">
+           <div class="container text-center">
+               <div class="row title text-center">
+                   <h1>jelly</h1>
+               </div>
+               <div id="urdf"></div>
+               <br />
+            </div>
+         </section>
          <!--End contact section-->
          <!--Faq section-->
          <section id="faq" class="faq pt-120 pb-120 brd-bottom">
